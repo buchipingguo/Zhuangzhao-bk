@@ -577,7 +577,7 @@ function Base() {
         // 请去 AmazingCounters.com 配置自己的，谢谢！！
         pvHtml += '<span id="amazingStatSpan"><span id="amazingStat" style=""></span></span>';
         pvHtml += '<div>【'+window.cnblogsConfig.bottomText.left+'<span id="footerTextIcon">❤️</span>'+window.cnblogsConfig.bottomText.right+'】</div>';
-        pvHtml += '<div>【️ 认清了生活的真相后还依然热爱它 ️】</div>';
+        pvHtml += '<div>【️ 爱我所爱，即使所爱譬如朝露 ️】</div>';
         pvHtml += "<div><span id='blogRunTimeSpan'></span><span class='my-face'>ღゝ◡╹)ノ♡</span></div>";
         pvHtml += '<div id="cnzzInfo"></div>';
         $('#footer').append(pvHtml).prepend('<div class="footer-image"></div>');
@@ -637,7 +637,7 @@ function Base() {
             $('#footer').prepend('<div class="footer-image"></div>');
             setInterval(function(){
                 var footer = $('#footer');
-                var themeHtml = '<p id="ThemeAuthors" style="color: #444;z-index: 999;">Authors：<a href="https://www.cnblogs.com/zhangmingyan/" target="_blank" style="color:#444;">张明岩</a> -</p></div>';
+                var themeHtml = '<p id="ThemeAuthors" style="color: #444;z-index: 999;">Authors：<a href="https://www.cnblogs.com/zhangmingyan/" target="_blank" style="color:#444;">庄钊</a> -</p></div>';
                 if ($('#ThemeAuthors').length == 0) {
                     $('#footer').append(themeHtml);
                 } else {
